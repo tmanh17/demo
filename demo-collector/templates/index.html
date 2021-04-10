@@ -1,0 +1,113 @@
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    const url = 'http://192.168.10.38:5005/demo'
+    const data = {
+        "data": {
+            "content_ids": ["tmanh17", "manhdt"], 
+            "content_name": "CompleteRegistration",
+            "content_category": "Conversion"
+        },
+        "timestamp": 1573724975688,
+        "status": "Ok",
+        "name": "ViewContent",
+        "session_id": "1dpkl2skp:4nqm04f7t"
+    };
+	
+	$(document).on('click', '.send_view', function (e) {
+		console.log('this is the click');
+		$.ajax({
+		  type: 'POST',
+		  url: "http://192.168.10.38:5005/demo",
+		  contentType: "application/json; charset=utf-8",
+		  data: JSON.stringify(data),
+		  success: function(result){
+			console.log(result)
+		  }
+		});
+		e.preventDefault();
+	});
+
+</script>
+
+</head>
+<html>
+   <div class="slick-list">
+      <div class="slick-track" style="width: 2480px; opacity: 1; transform: translate3d(0px, 0px, 0px);">
+         <div data-index="0" class="slick-slide slick-active slick-current" tabindex="-1" aria-hidden="false" style="outline: none; width: 248px;">
+            <div>
+               <a class="pointer" style="cursor: pointer;">
+                  <div dimensions="1x1" style="width: 192px;">
+                     <div class="PictureV2__StyledWrapImage-tfuu67-0 kttJTC">
+                        <img class ="send_view" src="https://salt.tikicdn.com/cache/280x280/ts/product/7c/b2/fd/8d01d483459453b87e990d3481c33928.jpg" alt="Nước Giặt Ariel Đậm Đặc Dạng Túi 3.6kg" class="PictureV2__StyledImage-tfuu67-1 hQOEQo">
+                        <div class="deals__discount">-29%</div>
+                     </div>
+                  </div>
+                  <div class="deals__price">143.000 ₫</div>
+                  <div class="deals__qty">
+                     <div class="deals__progress" style="width: 70%;"></div>
+                     <span>Đã bán 14</span><img class="fire-icon" src="https://frontend.tikicdn.com/_desktop-next/static/img/fire_icon.svg">
+                  </div>
+               </a>
+            </div>
+         </div>
+         <div data-index="1" class="slick-slide slick-active" tabindex="-1" aria-hidden="false" style="outline: none; width: 248px;">
+            <div>
+               <a class="deals__item">
+                  <div dimensions="1x1" style="width: 192px;">
+                     <div class="PictureV2__StyledWrapImage-tfuu67-0 kttJTC">
+                        <img src="https://salt.tikicdn.com/cache/280x280/ts/product/e4/a4/a4/b9c68ec77d12aec4778657372029b111.JPG" alt="Đệm Giường Hơi Ô Tô Cao Cấp, Đệm Hơi Xe Hơi Amalife (Tặng Kèm Bơm Điện)" class="PictureV2__StyledImage-tfuu67-1 hQOEQo">
+                        <div class="deals__discount">-62%</div>
+                     </div>
+                  </div>
+                  <div class="deals__price">324.000 ₫</div>
+                  <div class="deals__qty">
+                     <div class="deals__progress" style="width: 80%;"></div>
+                     <span>Sắp bán hết</span><img class="fire-icon" src="https://frontend.tikicdn.com/_desktop-next/static/img/fire_icon.svg">
+                  </div>
+               </a>
+            </div>
+         </div>
+         <div data-index="2" class="slick-slide slick-active" tabindex="-1" aria-hidden="false" style="outline: none; width: 248px;">
+            <div>
+               <a class="deals__item">
+                  <div dimensions="1x1" style="width: 192px;">
+                     <div class="PictureV2__StyledWrapImage-tfuu67-0 kttJTC">
+                        <img src="https://salt.tikicdn.com/cache/280x280/ts/product/b9/b4/3e/2bc6f5dc27c6cad29bb9ef0c085b4b13.png" alt="Bộ vệ sinh giày cao cấp - Cleaning Kit KYS+ tẩy trắng cho giày thể thao, giày sneaker, làm sạch giày da, da lộn" class="PictureV2__StyledImage-tfuu67-1 hQOEQo">
+                        <div class="deals__discount">-47%</div>
+                     </div>
+                  </div>
+                  <div class="deals__price">194.000 ₫</div>
+                  <div class="deals__qty">
+                     <div class="deals__progress" style="width: 50%;"></div>
+                     <span>Đã bán 5</span><img class="fire-icon" src="https://frontend.tikicdn.com/_desktop-next/static/img/fire_icon.svg">
+                  </div>
+               </a>
+            </div>
+         </div>
+         <div data-index="3" class="slick-slide slick-active" tabindex="-1" aria-hidden="false" style="outline: none; width: 248px;">
+            <div>
+               <a class="deals__item">
+                  <div dimensions="1x1" style="width: 192px;">
+                     <div class="PictureV2__StyledWrapImage-tfuu67-0 kttJTC">
+                        <img src="https://salt.tikicdn.com/cache/280x280/ts/product/62/7c/ab/1730d05593ca05a39bc5fe9a1939945e.jpg" alt="Đồng Hồ Nữ  PAGINI Victoria PA2188 - Thời Trang Cao Cấp" class="PictureV2__StyledImage-tfuu67-1 hQOEQo">
+                        <div class="deals__discount">-51%</div>
+                     </div>
+                  </div>
+                  <div class="deals__price">162.000 ₫</div>
+                  <div class="deals__qty">
+                     <div class="deals__progress" style="width: 50%;"></div>
+                     <span>Đã bán 5</span><img class="fire-icon" src="https://frontend.tikicdn.com/_desktop-next/static/img/fire_icon.svg">
+                  </div>
+               </a>
+            </div>
+         </div>
+         <div data-index="5" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 248px;"></div>
+         <div data-index="6" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 248px;"></div>
+         <div data-index="7" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 248px;"></div>
+         <div data-index="8" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 248px;"></div>
+         <div data-index="9" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 248px;">
+         </div>
+      </div>
+   </div>
+</html>
